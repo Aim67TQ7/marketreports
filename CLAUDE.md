@@ -5,20 +5,20 @@
 **Status:** In Transition
 
 ## What This Was
-Standalone app or experiment
+Market Research App - README — The Market Research App is a powerful tool that enables users to conduct in-dept
 
 ## Current State
-Deprecated — function should be handled by agent. Last pushed 2025-04-24.
+Function replaceable by agent — last pushed 2025-04-24
 
 ## Agent Replacement
 **Agent Name:** PENDING
-**Lives On:** Maggie or Pete VPS (TBD)
-**Orchestrator:** n8n workflow to ORC `pdf` skill
-**Endpoint or Trigger:** N/A
+**Lives On:** Maggie or Pete VPS (to be determined during build)
+**Orchestrator:** n8n workflow → ORC `pdf` skill
+**Endpoint or Trigger:** PENDING
 **Supabase Table:** N/A
 
 ## Handoff Notes
-This repo's core function was: Report generation. The recommended replacement pattern is: n8n workflow to ORC `pdf` skill. Check ORC skill list at https://orc.gp3.app/skills before building anything new.
+Core function: The Market Research App is a powerful tool that enables users to conduct in-depth market research on any industry or pro. Recommended replacement: n8n workflow → ORC `pdf` skill. Verify at https://orc.gp3.app/skills before building anything new.
 
 ## Dependencies
 - Anthropic API (Claude)
@@ -28,4 +28,4 @@ This repo's core function was: Report generation. The recommended replacement pa
 2025-04-24
 
 ## Claude's Notes
-- Agent replacement not yet built. This is a backlog item.
+- Agent replacement not yet built. This is a backlog item for the GP3 platform team.
